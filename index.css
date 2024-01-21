@@ -1,0 +1,518 @@
+.contato-icon,
+.header-child {
+  position: relative;
+  display: none;
+}
+.header-child {
+  background-color: var(--color-darkslategray);
+  width: 1600px;
+  height: 144px;
+  max-width: 100%;
+}
+.contato-icon {
+  align-self: stretch;
+  max-height: 100%;
+  width: 159px;
+  min-height: 50px;
+}
+.image-1-icon {
+  position: relative;
+  width: 69.4px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 1;
+}
+.contato,
+.projetos,
+.sobre {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 300;
+  cursor: pointer;
+  z-index: 1;
+}
+.projects-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-xl);
+}
+.header,
+.projects-frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.projects-frame-wrapper {
+  width: 375px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.header {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  flex-direction: row;
+  justify-content: center;
+  padding: 55px var(--padding-xl) 39px;
+  gap: 712px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-rosybrown-200);
+  font-family: var(--font-roboto);
+  align-items: center;
+}
+.introducao-child {
+  position: relative;
+  background-color: var(--color-dimgray-200);
+  width: 1600px;
+  height: 941px;
+  display: none;
+  max-width: 100%;
+}
+.caroline-oliveira {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  height: 103px;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.u-x-u-i-designer-label {
+  background-color: var(--color-rosybrown-200);
+  width: 720px;
+  height: 1px;
+  z-index: 1;
+}
+.designer-de-ux,
+.frame,
+.u-x-u-i-designer-label {
+  position: relative;
+  max-width: 100%;
+}
+.designer-de-ux {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: var(--font-roboto);
+  color: #a19c9c;
+  text-align: center;
+  display: inline-block;
+  z-index: 1;
+}
+.frame {
+  width: 343px;
+  height: 247px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.introducao {
+  align-self: stretch;
+  background-color: var(--color-dimgray-200);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 383px var(--padding-xl) 331px 22px; */
+  box-sizing: border-box;
+  gap: 38px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 128px;
+  color: var(--color-rosybrown-200);
+  font-family: var(--font-savoye-let);
+  height: 100vh;
+}
+.projetos-child {
+  position: relative;
+  background-color: var(--color-silver);
+  width: 1600px;
+  height: 810px;
+  display: none;
+  max-width: 100%;
+}
+.projetos2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 1;
+}
+.projetos-wrapper,
+.projetos1,
+.rectangle-rectangle-rectangle {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.projetos1 {
+  flex: 1;
+  background-color: var(--color-silver);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-131xl) var(--padding-xl) var(--padding-131xl) 23px;
+  gap: var(--gap-81xl);
+}
+.projetos-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xs) 0 0;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-rosybrown-100);
+  font-family: var(--font-roboto);
+}
+.sobre-child {
+  position: relative;
+  background-color: var(--color-darkgray-100);
+  width: 1602px;
+  height: 836px;
+  display: none;
+  max-width: 100%;
+}
+.sobre-mim {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 70px;
+  font-weight: 900;
+  font-family: inherit;
+  z-index: 1;
+}
+.sobre-mim-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0 40px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer-copyright-frame {
+  border: 0;
+  /* background-color: var(--color-dimgray-100); */
+  height: 330px;
+  width: auto;
+  outline: 0;
+  position: relative;
+  border-radius: var(--br-3xs);
+  /* min-width: 440px;
+  max-width: 100%; */
+  z-index: 1;
+  object-fit: contain;
+}
+.caroline-uma,
+.possui-formao-em {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.possui-formao-em {
+  display: inline-block;
+  height: 141px;
+  flex-shrink: 0;
+}
+.projects-list-frame-child {
+  position: relative;
+  background-color: var(--color-gray);
+  width: 250px;
+  height: 60px;
+  display: none;
+}
+.baixar-currculo {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  color: var(--color-darkgray-100);
+  text-align: center;
+  z-index: 2;
+}
+.projects-list-frame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-2xl) 25px var(--padding-2xl) var(--padding-10xl);
+  background-color: var(--color-gray);
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.projects-list-frame:hover {
+  background-color: #756666;
+}
+.b-a-i-x-a-r-curriculo-label,
+.rectangle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangle {
+  flex: 1;
+  flex-direction: column;
+  gap: 26px;
+  min-width: 401px;
+}
+.b-a-i-x-a-r-curriculo-label {
+  width: 1119px;
+  flex-direction: row;
+  gap: 62px;
+  font-size: var(--font-size-9xl);
+  color: var(--color-dimgray-300);
+}
+.footer-frame,
+.sobre1 {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.sobre1 {
+  flex: 1;
+  background-color: var(--color-darkgray-100);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-131xl) 59px var(--padding-131xl) var(--padding-xl);
+  gap: var(--gap-81xl);
+}
+.footer-frame {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  text-align: left;
+  font-size: var(--font-size-51xl);
+  color: var(--color-rosybrown-100);
+  font-family: var(--font-roboto);
+}
+.footer-child {
+  position: relative;
+  background-color: var(--color-darkslategray);
+  width: 1600px;
+  height: 149px;
+  display: none;
+  max-width: 100%;
+}
+.todos-os-direitos {
+  position: relative;
+  z-index: 1;
+}
+.text-todos-direitos-reservados {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.contato-icon1 {
+  position: relative;
+  width: 159px;
+  height: 49.7px;
+  z-index: 1;
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 54px 221px 46px 220px;
+  box-sizing: border-box;
+  gap: 356px;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}
+
+.home {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+
+.contacts-icons {
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    gap: 356px;
+  }
+  .b-a-i-x-a-r-curriculo-label {
+    gap: 31px;
+  }
+  .sobre1 {
+    gap: var(--gap-31xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .caroline-oliveira {
+    font-size: 51px;
+  }
+  .designer-de-ux {
+    font-size: var(--font-size-13xl);
+  }
+  .introducao {
+    padding-top: 249px;
+    padding-bottom: 215px;
+    box-sizing: border-box;
+  }
+  .projetos2 {
+    font-size: var(--font-size-37xl);
+    line-height: 56px;
+  }
+  .projetos1 {
+    padding-top: var(--padding-78xl);
+    padding-bottom: var(--padding-78xl);
+    box-sizing: border-box;
+  }
+  .sobre-mim {
+    font-size: var(--font-size-37xl);
+    line-height: 56px;
+  }
+  .footer-copyright-frame {
+    flex: 1;
+  }
+  .b-a-i-x-a-r-curriculo-label {
+    flex-wrap: wrap;
+  }
+  .footer,
+  .sobre1 {
+    box-sizing: border-box;
+  }
+  .sobre1 {
+    padding-top: var(--padding-78xl);
+    padding-bottom: var(--padding-78xl);
+  }
+  .footer {
+    flex-wrap: wrap;
+    padding-left: var(--padding-91xl);
+    padding-right: var(--padding-91xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    display: none;
+  }
+  .introducao {
+    padding-top: 162px;
+    padding-bottom: 140px;
+    box-sizing: border-box;
+    height: auto;
+  }
+  .caroline-oliveira {
+    height: 38px;
+  }
+  .u-x-u-i-designer-label {
+    width: 70%;
+  }
+  iframe {
+    height: 300px;
+    width: max-content;
+  }
+  .rectangle-rectangle-rectangle {
+    gap: var(--gap-xl);
+  }
+  .projetos1 {
+    gap: var(--gap-31xl);
+  }
+  .footer-copyright-frame,
+  .rectangle {
+    min-width: 100%;
+  }
+  .b-a-i-x-a-r-curriculo-label {
+    gap: 15px;
+  }
+  .sobre1 {
+    gap: var(--gap-6xl);
+  }
+  .sobre-mim-wrapper {
+    padding: 0;
+  }
+  .baixar-currculo {
+    font-size: 18px;
+  }
+  .footer {
+    gap: 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .header {
+    gap: 89px;
+  }
+  .caroline-oliveira {
+    font-size: var(--font-size-23xl);
+  }
+  .designer-de-ux {
+    font-size: var(--font-size-5xl);
+  }
+  .introducao {
+    gap: 19px;
+  }
+  .projetos2 {
+    font-size: var(--font-size-23xl);
+    line-height: 42px;
+  }
+  .projetos1 {
+    gap: var(--gap-6xl);
+    padding-top: var(--padding-44xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .sobre-mim {
+    font-size: var(--font-size-23xl);
+    line-height: 42px;
+  }
+  .caroline-uma,
+  .possui-formao-em {
+    font-size: var(--font-size-3xl);
+  }
+  .sobre1 {
+    padding-top: var(--padding-44xl);
+    padding-bottom: var(--padding-44xl);
+    box-sizing: border-box;
+  }
+  .todos-os-direitos {
+    font-size: 19px;
+  }
+  .footer {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
